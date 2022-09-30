@@ -1,0 +1,57 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+body {
+    background-image: url('valon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Judul {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+}
+
+.link {
+    background-color: beige;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.link:hover {
+    background-color: peachpuff;
+    transition: .2ss ease-in-out;
+    transition-delay: .2s;
+}
+
+.Form {
+    padding-top: 10px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.button {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+}
